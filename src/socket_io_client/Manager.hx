@@ -10,7 +10,7 @@ package socket_io_client;
 	/**
 		The Engine.IO client instance
 	**/
-	var engine : engine_io_client.Socket;
+	var engine : Dynamic; // TODO: var engine : engine_io_client.Socket;
 	var _autoConnect : Bool;
 	var _readyState : String;
 	var _reconnecting : Bool;
